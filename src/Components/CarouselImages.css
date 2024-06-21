@@ -1,0 +1,49 @@
+
+.carousel-head{
+    color: white;
+    margin-top: 40px;
+    margin-left: 80px;
+    
+   
+}
+.carousl-top{
+    margin-left: 450px;
+    margin-top: 300px;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: cursive;
+    color: black;
+}
+.carousel-bottom{
+    margin-left: 450px;
+    margin-top: 520px;
+    
+    font-size: 35px;
+    font-family: cursive;
+}
+.carousel-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.cv{
+    color: black;
+    background-color: rgb(181, 36, 121);
+    font-size: 25px;
+    margin-left: 450px;
+    margin-top: 30px;
+   
+    font-family: cursive;
+}
+.bg-img1{
+    background-image: url(../images/hello.avif);
+    width: 100%;
+    display: block;
+}
+.bg-img2{
+    background-image: url(../images/imagetwo.jpg);
+    width: 100%;
+    display: block;
+
+}

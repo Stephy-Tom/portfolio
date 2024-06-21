@@ -1,0 +1,79 @@
+
+.profile{
+    padding-right: "40px";
+    margin-left: '60px';
+ }
+.media-icon:hover{
+    transform: scale(1.3);
+
+}
+.links:hover{
+    transform: scale(1.2);
+    color: blueviolet;
+}
+.media-icon{
+    transition: transform .2s;
+    
+}  
+    
+    .sidebar {
+        height: 100vh;
+        width: 100%;
+        background-color: #f2f3f7;
+        overflow-y: scroll;
+        text-align: center;
+        padding-top: 40px;
+      }
+      .sidebar > h1 {
+        padding-top: 20px;
+        text-align: center;
+      }
+
+.sidebar > p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .sidebar-nav {
+    margin-left: -30px;
+    margin-top: 30px;
+    text-align: center;
+  }
+  .sidebar-nav-items {
+    margin-bottom: 15px;
+  }
+.links {
+    background-image: linear-gradient(to right, #da4646, #ef0505, #810404);
+    background-size: 200% 100%;
+    background-position: -100%;
+    display: inline-block;
+    padding: 5px 0;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    line-height: 1.4rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  .links:before {
+    content: '';
+    background: linear-gradient(
+      to right,
+      rgba(255, 0, 0, 1),
+      rgba(255, 0, 180, 1),
+      rgba(0, 100, 200, 1)
+    );
+  }
+div.sticky{
+    position: sticky;
+    top:0;
+  background-color: #f2f3f7;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: transform .2s;
+}
